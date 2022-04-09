@@ -1,6 +1,6 @@
 var myValue = 0
 
-function waitForChange(){       // wait scraping to be done
+function waitForChange(){ 
     (function listen(){
         setTimeout(
             ()=>{

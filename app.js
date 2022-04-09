@@ -2,7 +2,6 @@ const {add,sub} = require('./Arrow')
 const {changeArray,changeArrayObject} = require('./Array')
 //console.log(' 2+3 = ' +sub(2,3))
 
-
 var data =  ['I am a new array']
 
 changeArray(data)   // don't
