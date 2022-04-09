@@ -6,4 +6,10 @@ function changeArrayObject(arr){
     arr.val = ['Array ichanged']
 }
 
-module.exports= {changeArray,changeArrayObject}
+function arraySquare(arr){
+    arr.val.forEach(element => {
+        element = element*element
+    });
+}
+
+module.exports= {changeArray,changeArrayObject,arraySquare}

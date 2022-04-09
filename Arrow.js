@@ -1,3 +1,8 @@
+/* Fonction Anonyme */
+(function alertArrowImport  (){
+    console.log('>>>> Arrow pachage called')
+})()
+
 /* Arrow function here */
 
 const add = (a,b) => {
@@ -7,13 +12,6 @@ const add = (a,b) => {
 const sub = (a,b) => {
     return a-b;
 }
-
-
-/* Fonction Anonyme */
-
-(function alertArrowImport  (){
-    console.log('>>>> Arrow pachage called')
-})()
 
 /* Module export */
 
