@@ -1,3 +1,5 @@
+// Fonction take array by value in parameters
+
 function changeArray(arr){
     arr = ['Array will nt changed']
 }

@@ -1,10 +1,9 @@
 /* Fonction Anonyme */
 (function alertArrowImport  (){
-    console.log('>>>> Arrow pachage called')
+    console.log('>>>> Arrow package called')
 })()
 
-/* Arrow function here */
-
+/* How to declare function with array method */
 const add = (a,b) => {
     return a+b;
 }
@@ -14,5 +13,4 @@ const sub = (a,b) => {
 }
 
 /* Module export */
-
 module.exports = {add,sub};
